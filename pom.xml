@@ -44,7 +44,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
 	  <version>3.8.0</version>
 		  <configuration>
-            <fork>true</fork>
+			  <fork>true</fork>
+				  <executable>/usr/lib/jvm/jre-1.8.0-openjdk/bin/java</executable>
         </configuration>
         </plugin>
         <plugin>
